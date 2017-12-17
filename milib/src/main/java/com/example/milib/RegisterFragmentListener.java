@@ -6,6 +6,6 @@ package com.example.milib;
 
 public interface RegisterFragmentListener {
 
-    public void registerFragmentAceptarClicked();
+    public void registerFragmentAceptarClicked(String sUser, String sPassword);
     public void registerFragmentCancelarClicked();
 }
